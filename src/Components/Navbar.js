@@ -1,7 +1,6 @@
-import React,{useState} from "react";
+import React from "react";
 
-function Navbar() {
-  const[isDark,setIsDark]=useState(false)
+function Navbar(props) {
 
   return (
     <div className="navbar">
@@ -12,12 +11,12 @@ function Navbar() {
         </h1> 
         <i
               class={
-                isDark
+                props.isDark
                   ? "fa fa-sun float-right "
                   : "fas fa-moon float-right"
               }
               aria-hidden="true"
-              onClick={() => setIsDark(!isDark)}
+              onClick={props.clicked}
             ></i>
     </div>
   );
