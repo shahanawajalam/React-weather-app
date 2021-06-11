@@ -1,3 +1,29 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+
+.bg-light{
+  background-image: url(
+    './assets/Clouds-4K-Wallpaper-3840X2160-21.jpg'
+  );
+  background-repeat: no-repeat;
+  background-size: 100% 200%;
+  padding-bottom: 14rem;
+}
+
+
+.bg-dark{
+  background-image: url(
+    './assets/Dark BbackGround.jpg'
+  ) ;  
+  background-repeat: no-repeat;
+  background-size: 100% 200%;
+  padding-bottom: 14rem;
+}  
+
+
 .navbar{
   height: auto;
   background: black;
@@ -13,12 +39,8 @@ h1{
   width:10%;
   margin-right: 10px;
 }
-body{
-  background-image:url('./assets/Clouds-4K-Wallpaper-3840X2160-21.jpg')  ;
-  background-size: 100% 200%;
-  
-  
-}
+
+
 
 .box{
  background-color:transparent ;
@@ -117,7 +139,6 @@ margin-top:1.5rem;
   }
   
   .MainContainer{
-    margin-bottom: 125px;
     margin-left: 31px;
     display: flex;
 
@@ -179,7 +200,7 @@ margin-top:1.5rem;
   background-color: #000000;
   color: white;
   text-align: center;
-  padding-top:5px ;
+  padding-top:15px ;
 }
 
 .fa-moon,.fa-sun{
@@ -261,5 +282,9 @@ margin-top:1.5rem;
 .arrow-card{
   display: grid;
   grid-template-columns: 20% 60% 20%;
+}
+
+.bg-light,.bg-dark{
+  padding-bottom: 120%;
 }
 }
