@@ -1,15 +1,20 @@
-import React from 'react'
+import React,{useState} from 'react'
 import Navbar from './Components/Navbar'
 import './App.css'
 import Weather from './Components/Weather'
 import Footer from './Components/Footer'
 function App() {
- 
+  const[isDark,setIsDark]=useState(false)
+
+ const handleClick = () => setIsDark(!isDark)
   return (
-    <div className="">
+    <div className={isDark
+      ? "bg-dark"
+      :"bg-light" 
+    }>
 
         
-      <Navbar/>
+      <Navbar isDark={isDark} clicked={handleClick}/>
       <Weather/>
       <Footer/>
    </div>
