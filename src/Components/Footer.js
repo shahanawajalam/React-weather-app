@@ -17,7 +17,7 @@ function Footer() {
 
         <a
           href={
-            "https://drive.google.com/file/d/1tiPjCJZygtExthGmqOu4_EkUjrJhp6o1/view?usp=sharing"
+            "https://drive.google.com/file/d/1NWKRoCRqdCWVFQdyvj6rLrxgJSP9kH9Y/view?usp=sharing"
           }
         >
           Resume/CV
