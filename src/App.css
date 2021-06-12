@@ -192,16 +192,7 @@ margin-top:1.5rem;
   color: white;
 }
 
-.footer{
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #000000;
-  color: white;
-  text-align: center;
-  padding-top:15px ;
-}
+
 
 .fa-moon,.fa-sun{
   font-size: 200%;
@@ -266,16 +257,7 @@ margin-top:1.5rem;
       margin-left: 3%;
   
   }
-  .footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #000000;
-    color: white;
-    text-align: center;
-    padding-top:5px ;
-  }
+  
   .h2, h2 {
     font-size: 1.80rem;
 } 
